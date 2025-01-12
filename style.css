@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen  and (orientation:portrait) { /*Configurações para retrato*/
+    
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(197, 147, 176);
+    
+}
+h1.titulo{
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(33, 180, 180) ;
+    padding: 5px;
+    margin: 8px;
+    width: 480px;
+    border-radius: 5px;
+}
+main{
+    background-color:  rgb(141, 237, 237);
+    width: 485px;
+    height: 600px;
+   width: 100vw;
+}
+h1{
+   background-color:  rgb(33, 180, 180);
+   color: white;
+   padding: 10px;
+   text-align: center;
+}
+img{
+    width: 200px;
+   position: relative;
+   left: 25%;
+   
+}
+
+p{
+    padding: 20px;
+    text-align: center;
+    
+}
+}
